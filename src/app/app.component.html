@@ -1,3 +1,26 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-split-pane contentId="menu">
+    <ion-menu content-id="menu" side="end" type="overlay">
+      <ion-header>
+        <ion-toolbar color="light">
+          
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-item> 
+            <ion-button (click)="onClick()" expand="block" fill="clear" shape="round">
+              For Worker
+            </ion-button>
+          
+          </ion-item>
+          <ion-item> For Contractor</ion-item>
+          <ion-item> Company</ion-item>
+          <ion-item> Login</ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+
+    <ion-router-outlet id="menu"></ion-router-outlet>
+  </ion-split-pane>
 </ion-app>

@@ -1,27 +1,19 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
+*{
   margin: 0;
+  padding: 0;
 }
+body{
+  
+}
+.container{
+  background-image: url('../../assets/images/hero_1.jpg');
+  background-position:center;
+  background-size: cover;
+  padding: 0 .5rem;
+  height: 100%;
+ 
+}
+.ion-item{
+  border-radius: .5rem;
 
-#container a {
-  text-decoration: none;
 }
